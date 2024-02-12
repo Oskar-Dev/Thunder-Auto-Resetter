@@ -1,0 +1,21 @@
+# Full path to your Minecraft instance, doesn't work with multiple intances.
+instance_path="C:/Users/oski3/OneDrive/Desktop/MultiMC/instances/Instance 1/.minecraft/saves"
+
+# Your Atum reset hotkey. 
+# MUST BE A SINGLE CHARACTER like "\\" or "r", keys like "f5" WON'T work.
+reset_hotkey="\\"
+
+# Resets for thunders which have start time greater or equal to this value.
+# MUST BE IN TICKS. 1 minute = 1200 ticks.
+min_thunder_start_time=12000
+
+# Resets for thunders which have start time less or equal to this value.
+# MUST BE IN TICKS. 1 minute = 1200 ticks.
+max_thunder_start_time=108000
+
+# Thunders won't be shorter than this value, values above 3600 ticks / 3 minutes won't work.
+# MUST BE IN TICKS. 1 minute = 1200 ticks.
+min_thunder_duration=1200
+
+# Debug mode. Will log rain/thunder cycle start time.
+debug_mode=true
